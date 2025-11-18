@@ -1,51 +1,76 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: large;
-    margin:0px;
+    margin: 0px;
     padding: 0px;
 }
 
 .container {
-    display:flex;
+    display: flex;
 }
 
-.left-panel{
-    display:flex;
+.left-panel {
+    display: flex;
     height: 100vh;
     width: 30vw;
     background: url(graffiti.jpg);
     background-size: 100%;
 }
 
-.right-panel{
+.right-panel {
+    background-color: aliceblue;
     font-weight: 500;
     padding-top: 10vh;
-    padding-left: 5vw;
     padding-right: 25vw;
-    width:70vw;
+    width: 70vw;
     height: 100vh;
+
 }
 
-.form-row{
-    display:flex;
+.form-row {
+    display: flex;
     gap: 20px;
+    width: 70vw;
 }
 
-.banner{
+.banner {
     font-size: larger;
     margin-top: 25vh;
     height: 15vh;
     width: 30vw;
     text-align: center;
-    color:white;
+    color: white;
     background-color: rgba(0, 0, 0, 0.665);
 }
 
-.rp-mid-row{
-    
+.rp-top-row {
+    padding-left: 5vw;
 }
 
-label, input{
+.rp-mid-row {
+    background-color: white;
+    padding-left: 5vw;
+}
+
+.rp-bot-row {
+    padding-left: 5vw;
+}
+
+.input-group{
     display: flex;
     flex-direction: column;
+    gap:5px;
+}
+
+button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    width: 200px;
+    height: 40px;
+    background-color: #596D48;
+    color: white;
+    border-color: #596D48;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 20px;
 }
