@@ -69,6 +69,10 @@ The project focuses on **clean form structure, layout fundamentals, and polished
 - Add form submission handling and success page.  
 
 ---
+## Image credit
+
+Graffiti Photo by Alp Ancel (alpancel) on Unsplash.
+---
 
 ## License
 
