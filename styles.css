@@ -24,19 +24,20 @@ body {
 /* Left-side Image Panel */
 .left-panel {
     flex: 1;
-    background: url(graffiti.jpg) center/225% no-repeat;
+    background: url(graffiti.jpg);
+    background-size: 225%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 /* Banner text on left panel */
 .banner {
+    width:100%;
+    text-align: center;
     font-size: x-large;
     color: white;
     background-color: rgba(0, 0, 0, 0.665);
     padding: 1rem 2rem;
-    border-radius: 8px;
 }
 
 /* Right-side Content Panel */
