@@ -17,11 +17,7 @@ body {
 
 .right-panel {
     background-color: aliceblue;
-    font-weight: 500;
-    padding-top: 10vh;
-    padding-right: 25vw;
     flex:2;
-
 }
 
 .form-row {
@@ -41,16 +37,17 @@ body {
 }
 
 .rp-top-row {
-    padding-left: 5vw;
 }
 
 .rp-mid-row {
-    background-color: white;
-    padding-left: 5vw;
+    background: #fff;
+    padding: 2rem 5vw;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .rp-bot-row {
-    padding-left: 5vw;
+
 }
 
 .input-group{
