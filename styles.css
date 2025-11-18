@@ -10,9 +10,7 @@ body {
 }
 
 .left-panel {
-    display: flex;
-    height: 100vh;
-    width: 30vw;
+    flex: 1;
     background: url(graffiti.jpg);
     background-size: 100%;
 }
@@ -22,8 +20,7 @@ body {
     font-weight: 500;
     padding-top: 10vh;
     padding-right: 25vw;
-    width: 70vw;
-    height: 100vh;
+    flex:2;
 
 }
 
@@ -73,4 +70,17 @@ button {
     border-radius: 10px;
     border-style: none;
     margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #596D48;
+    box-shadow: 0 0 3px rgba(89,109,72,.5);
 }
